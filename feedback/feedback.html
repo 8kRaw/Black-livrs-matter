@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>加入我们</title>
+	<link rel="stylesheet" href="../css/header.css"/>
+	<link rel="stylesheet" href="css/feedback.css"/>
+</head>
+
+<body>
+	<header>
+    		<div class="logo"><h1>BLM</h1></div>
+    		<nav>
+    			<ul>
+                    <li style="background-color:#BA3436"><a href="feedback.html">加入我们</a></li>
+                    <li><a href="../demonstrations/demonstrations.html">示威活动</a></li>
+					<li><a href="../racial/racial.html">种族歧视</a></li>
+                    <li><a href="../violent/violent.html">暴力执法</a></li>
+					<li><a href="../crime/crime.html">犯罪率</a></li>
+                    <li><a href="../index.html">首页</a></li>
+                </ul>
+    		</nav>   	 	  	
+    </header>
+	<div class="wrap">
+        <div class="banner">
+            <div class="container">
+                <a class="btn_use" href="#"></a>
+            </div>
+            <div class="focus">
+                <div id="focusPic" class="sliderwrapper">
+                    <div class="contentdiv" style="display:block;">
+                        <div class="f_pic focus_1"></div>
+                    </div>
+                    <div class="contentdiv">
+                        <div class="f_pic focus_2"></div>
+                    </div>
+                    <div class="contentdiv">
+                        <div class="f_pic focus_3"></div>
+                    </div>
+                </div>
+                <div id="paginate-focusPic" class="pagination">
+                    <i class="toc"></i><i class="toc"></i><i class="toc"></i><i class="toc"></i>
+                </div>
+            </div>
+        </div><!--/banner-->
+    </div>
+	
+	<!-- 加入我们 -->
+	<div class="imain">
+		<div class="imain_content">
+			<div class="pcontact">
+				<h2>HI, ARE YOU READY?</h2>
+				<h3>准备好开始了吗?<br />那就与我们取得联系吧</h3>
+				<span> 有一个<a href="#">
+					<strong>很重要的问题</strong></a>想和我们谈谈吗?<br />
+					您可以填写右边的表格，让我们了解您的项目需求，<br />
+					这是一个良好的开始，我们将会尽快与你取得联系。<br />
+					当然也欢迎您给我们写信或是打电话，让我们听到你的声音!
+				</span> 
+			</div>
+			 <div class="pmessage">
+				<h3>请填写你的信息</h3>
+				<li>
+				   <form name="form" method="post" action="">
+				   <input type="text" placeholder="您的姓名" class="input1" value="">
+				   <input type="text" placeholder="您的电话" class="input1">
+				   <textarea cols="" rows="" placeholder="告诉我您的留言内容" class="input2"></textarea>
+				   <input type="submit" value="提交" class="submit1"><input name="action" type="hidden" value="add">
+				   </form>
+				</li>
+			 </div>
+		 </div>
+	</div>
+	<footer>
+		<p> M,W,Q&copy; 版权所有 2020-2022</p>
+	</footer>
+	<script src="../js/slider.js"></script>
+	<script type="text/javascript">
+    featuredcontentslider.init({id: "focusPic",contentsource: ["inline", ""],toc: "#increment",nextprev: ["", ""], revealtype: "mouseover", enablefade: [true, 0.15], autorotate: [true, 3000], delay: 150,onChange: function(previndex, curindex){}});
+	</script>	
+</body>
+</html>

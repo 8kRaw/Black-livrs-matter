@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.szz{
+	width: 1200px;
+	margin: 0 auto;
+	padding:30px 0px;
+}
+.szz_text{
+	float:left;
+	width:43%;
+	height:100%;
+	padding-right:7%;
+	margin-top:20px;
+}
+.szz_text dl dt{
+	font-size:36px;
+	color:#000;
+	line-height:36px;
+}
+.szz_text dl dd{
+	font-size:18px;
+	color:#000;
+	line-height:36px;
+	padding:40px 0px 80px 0px;
+}
+.szz_list h6{
+	float:right;
+	width:50%;
+	overflow:hidden;
+}
+.szz_list h6 a{
+	display:block;
+}
+.szz_list h6 a:hover img {
+	transform: scale(0.8);
+}
+.szz_list h6 a img{
+	transition: all 1s; width: 100%;
+}
+.szz_list-b, .szz_list-d, .szz_list-f{
+	background:#eee;
+}
+.szz_list-b h6,.szz_list-d h6, .szz_list-f h6{
+	float:left;
+}
+.szz_list-b .szz_text,.szz_list-d .szz_text,.szz_list-f .szz_text{
+	float:left;
+	padding-right:0%;
+	padding-left:4%;
+}

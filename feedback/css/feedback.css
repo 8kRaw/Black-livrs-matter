@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.imain{
+	width:100%;
+	overflow:hidden;
+	margin: 80px auto;
+	clear:both;
+}
+.imain_content {
+	width:1250px;margin:auto;
+}
+.pcontact {
+	width:44%;
+	float:left;
+}
+.pcontact h2{
+	display:block;
+	color:#dd072b;
+	padding:10px 0;
+	font-weight:bold;
+	font-size:34px;
+}
+.pcontact h3{
+	padding:15px 0;
+	overflow:hidden;
+	display:block;
+	font-size:34px;
+	border-top:#333 2px solid;
+	border-bottom:#333 1px solid;
+	color:#666
+}
+.pcontact h4{
+	font-size:24px;
+	color:#000;
+	font-weight: normal;
+	padding-bottom:10px;
+}
+.pcontact span {
+	color:#666;
+	line-height:22px;
+	display:block;
+	padding:20px 0;
+	overflow:hidden;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.pcontact span strong {
+	display:block;
+	padding-bottom:10px;
+	font-size:24px;
+	color:#000;
+}
+.tred {
+	color:#dc082b !important;
+	font-weight:bold;
+	font-size:18px;
+}
+.pcontact span.tred  strong {
+	display:block;
+	font-size:18px;
+	color:#dc082b
+}
+
+
+.pmessage {
+	width:45%;
+	float:right;
+}
+.pmessage h3{
+	font-size:24px;
+	color:#666;
+	padding-top:10px;
+	padding-bottom:5px;
+	overflow:hidden;
+}
+.pmessage li{
+	padding-top:12px;
+	overflow:hidden;
+}
+.pmessage li .input1{
+	color:#333;
+	padding:15px 5%;
+	display:block;
+	width:88%;
+	margin-bottom:20px;
+	font-size:18px;
+}
+.pmessage li .input2{
+	color:#333;
+	padding:20px 5%;
+	display:block;
+	width:88%;
+	margin-bottom:20px;
+	font-size:18px;
+	min-height:80px;
+	resize: none;
+}
+.pmessage li .submit1{
+	background:#dc082b;
+	color:#fff;
+	padding:15px 0;
+	display:block;
+	margin-bottom:20px;
+	cursor:pointer;
+	font-size:18px;
+	width:100%;
+}
+.pmessage li .submit1:hover {
+	background:#000;
+}
+.sp {
+	width: 1200px;
+	margin: 50px auto;
+}
+.gy {
+	width: 1200px;
+	margin: 0 auto;
+}
+.gy h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	letter-spacing: 6px;
+}
+.gy h2 {
+	line-height: 90px;
+}
+.gy p {
+	text-align: center;
+	text-align: left;
+	line-height: 30px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
